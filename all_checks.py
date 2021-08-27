@@ -10,6 +10,6 @@ def main():
 	if check_reboot():
 		print("Pending a full Reboot to make the file appear changed.")
 		sys.exit(1)
-	print("Everything is really ok.") 
+	print("Everything is really ok and making a change.") 
 	sys.exit(0)
 main()
